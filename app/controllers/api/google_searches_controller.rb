@@ -14,7 +14,7 @@ class Api::GoogleSearchesController < ApplicationController
   def videos
     params = {
       "engine": "google_videos",
-          "q": "scraping guides",
+          "q": "ruby tutorials",
     }
     @search_videos = client.google_images(params)[:videos]
 

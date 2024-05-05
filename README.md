@@ -6,16 +6,16 @@ This Rails-based API wrapper facilitates data retrieval from [Search APIs](https
 
 ## Endpoints used
 
-* **GET /api/google_searches/images**
+* **GET /search?api_key=YOUR_API_KEY&engine=google_images&q=IMAGE_NAME**
   - Retrieves a list of all images and and link from the third-party API
 
-* **GET /api/google_searches/videos**
+* **GET /search?api_key=YOUR_API_KEY&engine=google_videos&q=VIDEOS_NAME**
   - Retrieves a list of videos links and the title of video from the third-party API.
 
-* **GET /api/google_searches/news**
+* **GET /search?api_key=YOUR_API_KEY&engine=google_news&location=NEWS_LOCATION&q=NEWS_NAME**
   - Retrieves a list of news articles for that person from the third-party API.
 
-* **GET /api/google_searches/maps**
+* **GET /search?api_key=YOUR_API_KEY&engine=google_maps_place&place_id=YOUR_PLACE_ID**
   - Retrieves a information of map locations  from the third-party API.
 
 
