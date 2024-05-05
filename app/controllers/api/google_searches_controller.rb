@@ -32,16 +32,6 @@ class Api::GoogleSearchesController < ApplicationController
     render json: @search_news
   end
 
-  def news
-    params = {
-        "engine": "google_news",
-            "q": "Jeff Bezos news",
-    "location": "New York,United States",
-    }
-    @search_news = client.google_images(params)[:organic_results]
-
-    render json: @search_news
-  end
 
   def maps
     params = {
