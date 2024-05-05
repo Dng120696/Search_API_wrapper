@@ -9,7 +9,7 @@ This Rails-based API wrapper facilitates data retrieval from [Search APIs](https
 * **GET /api/google_searches/images**
   - Retrieves a list of all images and and link from the third-party API
 
-  * **GET /api/google_searches/videos**
+* **GET /api/google_searches/videos**
   - Retrieves a list of videos links and the title of video from the third-party API.
 
 * **GET /api/google_searches/news**
