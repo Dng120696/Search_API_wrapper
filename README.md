@@ -17,6 +17,7 @@ This Rails-based API wrapper facilitates data retrieval from [Search APIs](https
 
 * **GET /search?api_key=YOUR_API_KEY&engine=google_maps_place&place_id=YOUR_PLACE_ID**
   - Retrieves a information of map locations  from the third-party API.
+  - Retrieve your PLACE_ID from  [Google Maps Place ID](https://developers.google.com/maps/documentation/places/web-service/place-id)
 
 
 ## Documentation
